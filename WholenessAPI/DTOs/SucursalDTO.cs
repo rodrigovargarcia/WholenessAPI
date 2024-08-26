@@ -2,11 +2,8 @@
 
 namespace WholenessAPI.DTOs
 {
-    public class SucursalDTO
+    public class SucursalDTO: SucursalCreacionDTO
     {
-        public int Id { get; set; }
-        [Required]
-        [StringLength(50)]
-        public string Name { get; set; }
+        public int Id { get; set; }        
     }
 }

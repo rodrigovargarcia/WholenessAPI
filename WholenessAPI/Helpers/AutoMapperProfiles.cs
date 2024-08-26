@@ -9,6 +9,7 @@ namespace WholenessAPI.Helpers
         public AutoMapperProfiles()
         {
             CreateMap<Sucursal, SucursalDTO>().ReverseMap();
+            CreateMap<SucursalCreacionDTO, Sucursal>();
         }
     }
 }
